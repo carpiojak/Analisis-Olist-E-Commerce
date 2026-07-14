@@ -69,14 +69,14 @@ Para este objetivo se integrarán las siguientes herramientas:
 
 # 🚀 Cómo ejecutar el proyecto
 
-1. Clonar el repositorio.
+1. **Descargar y descomrpimir** el dataset de [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) (Download → Download dataset as zip) <br>Nombrar la carpeta descargada como "data_raw", ubicada dentro de la carpeta de la carpeta del proyecto.
+   
+2. Clonar el repositorio.
 
 ```bash
 git clone https://github.com/carpiojak/Analisis-Olist-E-Commerce.git
 ```
-O descargué el repositorio completo.
-
-2. Descomprima los archivos **data_raw.rar** y **data_processed.rar**.
+O descargue el repositorio completo.
 
 3. Siga las instrucciones del notebook de limpieza, transformación y exportación de datos **data_processing.ipynb** para poder ejecutarlo.
 
@@ -93,7 +93,7 @@ O descargué el repositorio completo.
 ```text
 Analisis-Olist-E-Commerce/
 │
-├── data_raw.rar/
+├── data_raw/ (datos crudos)
 │   ├──olist_customers_dataset.csv
 │   ├──olist_order_items_dataset.csv
 │   ├──olist_order_payments_dataset.csv
@@ -103,7 +103,7 @@ Analisis-Olist-E-Commerce/
 │   ├──olist_sellers_dataset.csv
 │   └──product_category_name_translation.csv
 │
-├── data_processed.rar/
+├── data_processed.zip/ (datos procesados)
 │   ├──customers.csv
 │   ├──order_items.csv
 │   ├──order_payments.csv
@@ -112,7 +112,7 @@ Analisis-Olist-E-Commerce/
 │   ├──products.csv
 │   └──sellers.csv
 │
-├── MySQL/
+├── MySQL/ (creación de tablas y consultas)
 │   ├──comercial_consult.sql
 │   ├──created_tables.sql
 │   ├──finances_consult.sql
@@ -120,7 +120,7 @@ Analisis-Olist-E-Commerce/
 │   ├──quality_consult.sql
 │   └──views.sql
 │
-├── PostgreSQL/
+├── PostgreSQL/ (creación de tablas y consultas)
 │   ├──comercial_consult.sql
 │   ├──created_tables.sql
 │   ├──finances_consult.sql
@@ -128,19 +128,21 @@ Analisis-Olist-E-Commerce/
 │   ├──quality_consult.sql
 │   └──views.sql
 │
-├── Analisis de datos Olist.pdf
+├── Analisis de datos Olist.pdf (documentación)
 │
-├── data_processing.ipynb
+├── data_processing.ipynb (procesamiento)
 │
-├── olist_dashboard.pbix
+├── olist_dashboard.pbix (dashboard)
 │
-├──PPT Analisis de datos Olist.pptx
+├──PPT Analisis de datos Olist.pptx (presentación)
 │
 ├── README.md
 │
-└── requirements.txt
+└── requirements.txt (librerías)
 ```
-**Nota:** La documentación detallada del proyecto se puede ver en el archivo **Analisis de datos Olist.pdf**
+**Notas:**
+- La documentación detallada del proyecto se puede ver en el archivo **Analisis de datos Olist.pdf**
+- En este repositorio no se incluyó el dataset crudo **data_raw** ya que es muy pesado, pero debe descargarse cómo se indicó en [Cómo ejecutar el proyecto](#-cómo-ejecutar-el-proyecto).
 
 ---
 
