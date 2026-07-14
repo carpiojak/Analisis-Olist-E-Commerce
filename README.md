@@ -76,13 +76,13 @@ git clone https://github.com/carpiojak/Analisis-Olist-E-Commerce.git
 ```
 O descargué el repositorio completo.
 
-1. Descomprima los archivos **data_raw.zip** y **data_processed.zip**.
+2. Descomprima los archivos **data_raw.zip** y **data_processed.zip**.
 
-2. Siga las instrucciones del notebook de limpieza, transformación y exportación de datos **data_processing.ipynb** para poder ejecutarlo.
+3. Siga las instrucciones del notebook de limpieza, transformación y exportación de datos **data_processing.ipynb** para poder ejecutarlo.
 
-3. En caso de haber decidido exportar los df a una base de datos, puede ejecutar las querys de las carpetas MySQl o PostgreSQL, según corresponda.
+4. En caso de haber decidido exportar los df a una base de datos, puede ejecutar las querys de las carpetas MySQl o PostgreSQL, según corresponda.
 
-4. Abrir el archivo `.pbix` para explorar el dashboard interactivo.
+5. Abrir el archivo `.pbix` para explorar el dashboard interactivo.
 
 **Nota**: El archivo **olist_dashboard** ya contiene los df procesados, por lo que no es necesario volver a importarlos en ese archivo.
 
