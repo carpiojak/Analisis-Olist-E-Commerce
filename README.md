@@ -76,7 +76,7 @@ git clone https://github.com/carpiojak/Analisis-Olist-E-Commerce.git
 ```
 O descargué el repositorio completo.
 
-2. Descomprima los archivos **data_raw.zip** y **data_processed.zip**.
+2. Descomprima los archivos **data_raw.rar** y **data_processed.rar**.
 
 3. Siga las instrucciones del notebook de limpieza, transformación y exportación de datos **data_processing.ipynb** para poder ejecutarlo.
 
@@ -93,7 +93,7 @@ O descargué el repositorio completo.
 ```text
 Analisis-Olist-E-Commerce/
 │
-├── data_raw.zip/
+├── data_raw.rar/
 │   ├──olist_customers_dataset.csv
 │   ├──olist_order_items_dataset.csv
 │   ├──olist_order_payments_dataset.csv
@@ -103,7 +103,7 @@ Analisis-Olist-E-Commerce/
 │   ├──olist_sellers_dataset.csv
 │   └──product_category_name_translation.csv
 │
-├── data_processed.zip/
+├── data_processed.rar/
 │   ├──customers.csv
 │   ├──order_items.csv
 │   ├──order_payments.csv
