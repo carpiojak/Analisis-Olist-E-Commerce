@@ -134,7 +134,7 @@ Analisis-Olist-E-Commerce/
 │
 ├── olist_dashboard.pbix (dashboard)
 │
-├──PPT Analisis de datos Olist.pptx (presentación)
+├──PPT Analisis de datos Olist.pdf (presentación)
 │
 ├── README.md
 │
